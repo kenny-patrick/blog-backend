@@ -2,7 +2,7 @@ POST http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-  "title": "Coding 102",
+  "title": "Coding 103",
   "author": "John Egghead",
   "url": "lrn2code.org",
   "likes": 120
