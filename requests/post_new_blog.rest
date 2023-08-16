@@ -2,8 +2,8 @@ POST http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-  "title": "How to suck dick",
-  "author": "Peter Puffer",
-  "url": "pornhub.com",
-  "likes": 69
+  "title": "Coding 102",
+  "author": "John Egghead",
+  "url": "lrn2code.org",
+  "likes": 120
 }

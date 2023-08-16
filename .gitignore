@@ -130,3 +130,5 @@ out
 
 # local config
 .vscode
+
+requests
