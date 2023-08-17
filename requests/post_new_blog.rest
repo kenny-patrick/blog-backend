@@ -1,9 +1,11 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imtlbm55IiwiaWQiOiI2NGRlNjIxMzg0Nzg2NmNkY2ZkNzBiNDYiLCJpYXQiOjE2OTIzMDAyMjJ9._fxaQ8-xPzpopSu8H2Rziikpv7TK1pdronkMuNbklMY
 
 {
-  "title": "Coding 103",
-  "author": "John Egghead",
-  "url": "lrn2code.org",
-  "likes": 120
+  "title": "asdfasdf",
+  "author": "Kenny",
+  "url": "kpatrick.com",
+  "likes": 42,
+  "user": "64de6213847866cdcfd70b46"
 }
