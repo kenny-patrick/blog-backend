@@ -49,14 +49,17 @@ blogsRouter.delete('/:id', userExtractor, async (request, response) => {
   }
 })
 
-blogsRouter.put('/:id', async (request, response) => {
+blogsRouter.put('/:id', userExtractor, async (request, response) => {
   const body = request.body
+
+  const user = User.findById(request.user)
 
   const blog = {
     title: body.title,
     author: body.author,
     likes: body.likes,
-    url: body.url
+    url: body.url,
+    user: user.id
   }
 
   const savedBlog = await Blog.findByIdAndUpdate(request.params.id, blog, { new: true })
